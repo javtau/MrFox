@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8293c4 </color>
+    <color name="colorPrimaryDark">#495165</color>
+    <color name="colorAccent">#7e8288</color>
+    <color name="primary_light">#bdcbf1</color>
+    <color name="primary_text">#21252c</color>
+    <color name="secondary_text">#b5b6bc</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#dcdde3 </color>
+    <color name="Splahs_textcolor1">#e16c1d </color>
+    <color name="Splahs_textcolor2">#fb8525 </color>
+
+    <color name="button_focused">#fb8525</color>
+    <color name="button_default">#e16c1d</color>
+    <color name="button_pressed">#e59133</color>
+</resources>

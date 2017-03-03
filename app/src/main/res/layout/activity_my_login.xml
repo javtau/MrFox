@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_loggin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    >
+
+
+
+
+    <LinearLayout
+        android:id="@+id/txt_marca"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="30dp">
+
+        <TextView
+            android:id="@+id/lbl_splahtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/title1"
+            />
+        <TextView
+            android:id="@+id/lbl_splahtext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/title2"
+            android:text="@string/text_splahtext2"
+            android:textSize="160sp"
+            android:textColor="@color/Splahs_textcolor2" />
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_marca"
+        android:textColor="@color/Splahs_textcolor2"
+        android:textSize="45sp"
+        android:id="@+id/txt_slogan"
+        android:textAlignment="center"
+        />
+
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_slogan"
+        android:background="@android:color/white"
+        android:id="@+id/layout_data"
+        android:layout_marginTop="@dimen/activity_loggin_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_loggin_vertical_margin"
+        android:layout_marginRight="@dimen/activity_loggin_vertical_margin"
+        android:paddingTop="@dimen/activity_loggin_horizontal_padding"
+        android:paddingLeft="@dimen/activity_loggin_vertical_padding"
+        android:paddingRight="@dimen/activity_loggin_vertical_padding"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txt_name"
+            android:textAlignment="center"
+            android:hint="@string/hint_user"
+            android:textColor="@color/primary_text"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/txt_contraseña"
+            android:textColor="@color/primary_text"
+            android:textAlignment="center"
+            android:hint="@string/hint_pass"
+            android:layout_below="@+id/txt_name"
+            android:layout_alignParentStart="true" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_login"
+        android:text="@string/btn_login"
+        android:onClick="ingresar"
+        android:layout_below="@+id/layout_data"
+        android:layout_alignStart="@+id/layout_data"
+        android:layout_alignEnd="@+id/layout_data"
+        android:background="@drawable/button_custome"/>
+
+    <TextView
+        android:text="Si no estas registrado pulsa aqui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_login"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/Splahs_textcolor2"
+        android:id="@+id/txt_singin"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:padding="10dp"/>
+
+
+</RelativeLayout>

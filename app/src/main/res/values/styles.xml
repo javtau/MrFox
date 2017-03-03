@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/MrFoxTheme"></style>
+
+    <style name="MrFoxTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MrFoxTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MrFoxTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="MrFoxTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TextAppearance.Widget.AppCompat.Toolbar.Title" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">40dp</item>
+    </style>
+
+    <style name="title1">
+        <item name="android:text">text_splahtext1</item>
+        <item name="android:textSize">160sp</item>
+        <item name="android:textColor">@color/Splahs_textcolor1</item>
+    </style>
+    <style name="title2">
+        <item name="android:text">text_splahtext1</item>
+        <item name="android:textSize">160sp</item>
+        <item name="android:textColor">@color/Splahs_textcolor1</item>
+    </style>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.javier_lozano.mrfox.MySplash">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:src="@drawable/ic_fox"
+        android:id="@+id/imageView"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp" />
+
+    <LinearLayout
+        android:id="@+id/lbl_splah"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageView">
+
+        <TextView
+            android:id="@+id/lbl_splahtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_splahtext1"
+            android:textSize="120sp"
+            android:textColor="@color/Splahs_textcolor1" />
+        <TextView
+            android:id="@+id/lbl_splahtext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_splahtext2"
+            android:textSize="120sp"
+            android:textColor="@color/Splahs_textcolor2" />
+    </LinearLayout>
+
+</RelativeLayout>
