@@ -28,12 +28,11 @@
     </style>
 
     <style name="title1">
-        <item name="android:text">text_splahtext1</item>
+
         <item name="android:textSize">160sp</item>
         <item name="android:textColor">@color/Splahs_textcolor1</item>
     </style>
     <style name="title2">
-        <item name="android:text">text_splahtext1</item>
         <item name="android:textSize">160sp</item>
         <item name="android:textColor">@color/Splahs_textcolor1</item>
     </style>
